@@ -20,5 +20,6 @@ h5 {
 p {
     position : relative;
     bottom: 1px;
-    justify-content:center
+    justify-content:center;
+    color: green;
 }
