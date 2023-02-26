@@ -16,3 +16,9 @@ h5 {
     font-size: 4rem;
 	margin-top: 74px;
 }
+
+p {
+    position : relative;
+    bottom: 1px;
+    justify-content:center
+}
