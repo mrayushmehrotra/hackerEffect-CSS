@@ -1,0 +1,18 @@
+body {
+    background-color:black;
+    margin-left: 402px;
+}
+
+h1{
+    color:rgb(36, 196, 36);
+    font-size :10rem;
+    font-family: "Space Mono" ,monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: green;
+    font-size: 4rem;
+	margin-top: 74px;
+}
