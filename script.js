@@ -18,4 +18,15 @@ document.querySelector("h1").onmouseover = event => {
 },30);
 }
 
-     
+ x = document.getElementById("h1").onclick(getLocation())
+
+function getLocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition)
+    } 
+}    
+function showPosition(position){
+    console.log("Latitude: " + position.coords.latitude);
+    console.log("longitude: " + position.coords.longitude)
+} 
+
